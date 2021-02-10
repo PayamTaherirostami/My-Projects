@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin/Staff </title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body class= "admin">
+    <div id="wrapper">
+        <header>
+        <a href="index.html">
+            <img title=Pamiran src="images/logo1.jpg" alt="the pamiran logo"></a>
+        </header>
+        <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="quote.html"> GET A QUOTE</a></li>
+            <li><a href="login.html"> LOGIN</a></li>
+        </ul>
+        </nav>
+                <div id="banner">
+            <img title=logo2 src="images/cartonbarik.png" alt="the cart logo">        
+        </div>
+<main>
+   <input type="button" id='script' name="scriptbutton" value=" Calculate the price " onclick="goPython()">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script>
+        function goPython(){
+            $.ajax({
+              url: ("pamiran.py"),
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script>
+    </main>
+        <footer>
+        <ul>
+            <li>Copyright 2020 &copy;</li>
+             <li>All Rights Reserved</li>
+            <li> <a href="termofuse.html"> Term of Use</a></li>
+            <li> <a href="http://compass.northseattle.edu/~ptaherirostami/it111/">Web Design by Payam</a></li>
+            <li><b><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Eptaherirostami%2Fit111%2Ffinal%2Fpanel.html"> Valid!</a></b></li>          
+        </ul> 
+        </footer>
+        </div>
+</body>
+</html>

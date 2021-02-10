@@ -1,0 +1,971 @@
+/*styles for final*/
+
+/****************** General ********************/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box; 
+}
+body{
+
+    font-family:verdana, Helvetica, arial, sans-serif;
+    background-color: black;
+/*    before png */
+    background-image: url(../images/back.jpg);
+    font-size: 100%;
+}
+header{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#wrapper{
+/*    width:78%;*/
+/*    max-width: 940px;*/
+    border-radius: 15px;
+    width: 940px;;
+    margin:20px auto;
+    background:rgba(110,290,255,.94);
+    overflow: hidden;
+    padding:10px;
+}
+nav{
+    border-radius: 15px;
+    height:50px;
+    background:#05a;
+    line-height:50px;
+    margin-bottom: 5px;
+}
+nav#second{
+    height: auto; 
+}
+nav ul{
+    list-style-type: none;   
+}
+nav li{
+    float:left;
+    width:16.66%;
+/*    display: inline;*/
+    text-align: center; 
+}
+nav a{
+    text-decoration:none;
+/*    underlino barmidare*/
+    display: block;
+/*    range itemo kolan avaz mikone*/
+    color: white;
+}
+nav a:hover{
+    border-radius: 15px;
+    background:#028 ;
+    color:aqua;
+}
+ #container{
+    margin-top: 20px;
+}
+footer{
+/*    border-top:1px dotted #666;*/
+    border-radius: 15px;
+    height:50px;
+    line-height: 50px;
+    background:#05a;
+    clear:both;
+    color:white;
+}
+footer ul{
+list-style-type: none;
+}
+footer li{
+    float:left;
+    width:20%;
+/*    display: inline;*/
+    text-align: center;
+    
+}
+footer a{
+    text-decoration:none;
+/*    underlino n=barmidare*/
+    display: block;
+/*    range itemo kolan avaz mikone*/
+    color: white;
+}
+footer a:hover{
+    border-radius: 15px;
+    background:#028 ;
+    color:aqua;
+}
+img.right{
+    float:right;
+/*    add margin left*/
+    margin:0 0 10px 30px;
+}
+img.left{
+    float:left; 
+/*    add margin right*/
+    margin:0 30px 20px 0;
+}
+.center{
+    display:block;
+    margin:20px auto;
+    text-align:center;
+}
+.home nav li:nth-child(1) a,
+.about nav li:nth-child(2) a,
+.gallery nav li:nth-child(3) a,
+.contact nav li:nth-child(4) a,
+.quote nav li:nth-child(5) a,
+.login nav li:nth-child(6)
+.terms nav li:nth-child(7)a
+{
+    background: red;*/
+/*    in kar nakard bebin cheshe
+    */
+}
+main{
+    width:580px;
+/*    width: 59.57%*/
+    float:left;
+ margin-top:10px;
+}
+/*********************** thx *******************/
+.thx main{
+    width: 920px;
+    background: white;
+    border-radius: 10px;border:2px solid  navy;
+    margin-bottom: 10px;
+}
+.thx main p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-style: italic;
+    font-size: 1.2em;
+    color: blue;
+}
+.thx main img{
+    margin: 0px auto;
+}
+#banner{
+/*   background:white;  */
+}
+#banner img{
+    display: block;
+      max-width: 100%;
+}
+
+/************************ Home *****************/
+
+.home aside img{
+    max-width: 340px;
+    
+    margin-top:10px;
+    margin-bottom: 10px;
+   
+}
+.home aside figcaption{
+    line-height: 1.6;
+    font-size: 1em;
+    margin-left: 580px;
+    border-radius: 10px;
+    border: 3px solid navy;
+    margin-bottom:10px; 
+    padding: 5px;
+}
+.home main p{
+line-height: 1.7;
+    margin-right: 10px;
+    font-size: 1.1em
+}
+.container1{
+    width: 940px;
+/*    background: red;*/
+    clear: both;
+    height: 50px;
+    font-size: 1.3em;
+    margin-left: 50px;
+}
+.tenth{
+    padding: 20px;
+     border-radius: 10px;
+    width:300px;
+    height:300px;
+    float: left;
+    border:4px solid navy;
+    
+}
+.tenth img{
+    width: 290px;
+    height: 200px;
+}
+#ax3 p{
+    margin-top: -5px;
+}
+#ax3 img{
+    margin-top: -25px;
+    width: 90px;
+    height: 90px;
+    margin-right: 0px;
+}
+.eleven{
+    margin-top: 5px;
+    border-radius: 10px;
+    width:200px;
+    height:100px;
+    float: left;
+/*    border:4px solid navy;*/
+    margin-left: 50px;
+/*    background-image: url(../images/dnl.png) ;*/
+/*    background-repeat: no-repeat;*/
+    color: white;
+}
+.eleven img{
+    margin-top: 15px;
+    width: 200px;
+    height: 75px;
+    margin-left: -25px;
+    
+/*    background-repeat: no-repeat;*/
+}
+.eleven h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.home .third{
+/*    border:4px solid navy;*/
+    margin: 0 auto;
+}
+.home video{
+    width: 300px;
+    height: 300px;
+    margin-left: 6px;
+}
+.tenth h4{
+    font-size: 1.1em;
+    line-height: 2;
+    margin-left: 5px;
+}
+.home #wrapper{
+/*    background: white;*/
+}
+.home nav{
+    margin-bottom: 10px;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+/****************** admin **********************/
+.admin aside{
+/*      border-radius: 25px;*/
+/*  border: 4px solid navy;*/
+/*  padding: 10px;*/
+  width: 340px;
+  height: 380px;
+/*    max-width:330px; */
+/*    width: 36.17%;*/
+    float:right;
+    margin-top: -20px;
+}
+
+.admin aside img{
+    margin-top: 20px;
+        display: block;
+    max-width: 100%;
+}
+.admin input[type=submit]{
+    border-radius: 10px;
+    font-family: sans-serif,fantasy;
+    font-size: 1.1em;
+    color:red;
+
+}
+
+/**************************** customer ***********/
+.customer aside img{
+    
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.customer aside{
+    float: right;
+    width: 340px;
+    
+}
+/*************************** Login *****************/
+.login aside nav li{
+         float:left;
+    width:100%;
+/*    display: inline;*/
+    text-align: center;
+}
+
+.login aside nav {
+    border-radius: 15px;
+/*    border:3px dotted #666;*/
+    height:100px;
+    line-height: 50px;
+    background:#05a;
+/*    clear:both;*/
+    color:white;
+}
+.login aside nav  ul{
+list-style-type: none;
+}
+
+.login aside nav  a{
+    text-decoration:none;
+    display: block;
+    color: white;
+}
+.login aside nav a:hover{
+    background:#028 ;
+    color:red;
+    border-radius: 15px;
+}
+.login aside{
+    width: 340px;
+    float: right;
+    margin-top: 10px;
+}
+.login main img{
+    margin: 10px;
+}
+nav#second ul{
+    width: auto;
+}
+nav#second li{
+/*    background: red;*/
+    float: none;
+    width: auto;
+    text-align: left;
+}
+nav#second a{
+    padding-left: 20px;
+}
+/********************* term of use ******************/
+.terms  ol li{
+    margin-left: 30px;
+      margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 1.1em;
+    
+    
+}
+.terms p{
+    margin-left:10px;
+    line-height: 1.9;
+}
+.terms h1{
+    margin-top: 10px;
+}
+/*********************** Contact us *****************/
+.contact main{
+    width:580px;
+/*    width: 59.57%*/
+    float:left;
+ margin-top:10px;
+}
+.contact main ul{
+    margin-bottom:10px;
+     list-style-type: none;
+}
+.contact aside{
+      border-radius: 25px;
+  border: 7px solid navy;
+  padding: 10px;
+  width: 330px;
+  height: 380px;
+/*    max-width:330px; */
+/*    width: 36.17%;*/
+    float:right;
+    margin-top: 10px;
+}
+.contact aside p{
+    font-size: 1.1em;
+    font-style: oblique;
+    margin-top:5px;
+    margin-left: 8px;
+/*    margin-top: 60px;*/
+ 
+} 
+.contact aside img{
+    margin-top: 20px;
+        display: block;
+    max-width: 100%;
+}
+.contact main h3{
+    margin-bottom: 10px;
+}
+#logo{
+    display: inline;
+}
+#link{
+    margin-top: 80px;
+}
+#insta{
+/*    margin-bottom: 30px;*/
+    margin-top: 70px;
+}
+#whatsapp{
+    margin-top: 70px;
+}
+#pint{
+    margin-top: 70px;
+}
+#you{
+    margin-top: 70px;
+}
+/*************** Form - Contact Us ***************/
+#form{
+    width:580px;
+/*    width: 59.57%;*/
+    float: left;
+    margin-bottom:10px ; 
+}
+label{
+    margin-left:1px;
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+fieldset{
+    padding:10px;
+}
+textarea{
+    width: 100%;
+     margin-top:10px;
+    height: 60px;
+    margin-bottom:10px;
+}
+form ul{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+form li{
+    margin-top: 10px;
+    list-style-type: none;
+}
+input[type=submit]{
+    width: 25%;
+    margin-left: 207px;
+    font-family: fantasy;
+}
+legend{
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0 4px;
+    color: red;
+    margin-bottom: 10px;
+    margin-left: 210px;
+}
+select{
+    width: 100%;
+    height: 25px;
+    font-size: 1em;
+}
+input[type=radio],input[type=checkbox]{
+    width: auto;
+    height: auto;
+    margin-right:5px;
+}
+
+/********************* Gallery ****************/
+.container{
+    clear: both;
+     overflow: hidden;
+}
+.third{
+    width:300px;
+    height:300px;
+    float: left;
+}
+.third img{
+    margin-bottom: 15px;
+}
+.third p{
+    font-size: .9em;
+}
+.third:nth-child(1),
+.third:nth-child(2){
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+.forth{
+    width:300px;
+    height:300px;
+    float: left;
+}
+.fifth{
+    width:300px;
+    height:300px;
+    float: left; 
+    margin-left: 10px;
+}
+.third h4, .forth h4, .fifth h4{
+text-align: center;
+}
+.seven h4,.six h4{
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
+.seven img,.six img,.eight img{
+    margin-bottom: 15px;
+}
+.six img,.eight img{
+    margin-top: 15px;
+}
+.forth img{
+    margin-bottom: 15px;
+}
+.fifth img{
+    margin-bottom: 17px;
+}
+.eight{
+    margin-left: 320px;
+    margin-bottom: 10px;
+}
+.eight h4{
+    margin-left: 27px;
+}
+
+    table{
+        width:920px;
+/*        border-radius: 20px;*/
+        border: 2px solid navy;
+        border-collapse:collapse;
+        margin-bottom: 10px;
+    }
+    td{
+/*        border: 1px solid #f00;*/
+       width:25%;
+        vertical-align: top;
+        padding: 10px;
+        
+    }
+    td img{
+        width:210px;
+    }
+    td h4{
+        font-style: italic;
+        font-size: 1em;
+        font-family: verdana, arial;
+        text-align: center;
+    }
+    th{
+        background: navy;
+        padding: 10px;
+        font-size: 2em;
+        color:aqua;
+    }
+
+/******************* About **********************/
+.about aside{
+    
+    background:navy;
+    width:340px; 
+/*    width: 36.17%;*/
+    float:right;
+    margin-top: 10px;
+}
+.about aside p{
+    color: skyblue;
+    line-height: 1.8;
+    font-size: 1em;
+    margin: 8px;
+}
+.about figure{
+   margin-bottom: 10px; 
+}
+.about figcaption{
+        background: royal;
+        color:white;
+        padding:8px;
+        font-size:13px;
+        font-style: italic;  
+}
+.about img.left{
+    float:left;
+    border: 4px navy solid;
+    margin: 0px 20px 10px 10px;
+}
+.about figure{
+   margin-bottom: 10px; 
+}
+.about figcaption{
+        background: #000;
+        color:#fff;
+        padding:8px;
+        font-size:13px;
+        font-style: italic;
+    }
+.about h1, h2,h3{
+    margin-bottom: 10px;
+     margin-left: 10px;
+    
+}
+.about main p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/**************** Typograph **********************/
+h1, h2{
+    margin-bottom:8px;
+}
+p{
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 1.1em;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+h1{
+    font-size: 1.75em;
+}
+h2{
+    font-size:1.5em;
+}
+h3{
+    font-size:1.4em  ;
+}
+blockquote{
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-style: italic;
+    border-left: 30px solid #05a;
+    padding-left: 30px;
+}
+/***************** Qoute *****************/
+
+.instag{
+        width:150px;
+    height:150px;
+    float: left;
+/*    border: 1px solid navy;*/
+    margin-left: 11.5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.linkedin2{
+    padding: 10px;
+        width:150px;
+    height:150px;
+    float: left;
+/*    border: 1px solid navy;*/
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+}
+.pinte{
+        width:150px;
+    height:150px;
+    float: left;
+/*    border: 1px solid navy;*/
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.what{
+        width:150px;
+    height:150px;
+    float: left;
+/*    border: 1px solid navy;*/
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.you2{
+        width:150px;
+    height:150px;
+    float: left;
+/*    border: 1px solid navy;*/
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.ax1{
+    width:320px;
+    height:400px;
+    float: left;
+/*    border: 1px solid navy;*/
+    margin-left: 15px;
+    margin-top: -10px;
+}
+#ax3{
+    width:320px;
+    height:115px;
+    padding: 10PX;
+    float: left;
+    border-radius: 10px;
+    border:3px solid navy;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ax2{
+    width:320px;
+    height:340px;
+    float: left;
+/*    border: 1px solid navy;*/
+    margin-left: 15px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+/***************Form3 Customer**************/
+#form3{
+    width:580px;
+/*    width: 59.57%;*/
+    float: left;
+    margin-bottom:10px ; 
+}
+#form3 a{
+    text-decoration:none;
+    color: red;
+}
+#form3 h3{
+    margin-bottom: 20px;
+}
+#form3 label{
+    margin-left:1px;
+    width: 100%;
+}
+#form3 input{
+    width: 100%;
+    height: 30px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+#form3 fieldset{
+    padding:10px;
+    border-radius: 15px;
+    border:3px solid navy;
+}
+#form3 textarea{
+    width: 100%;
+     margin-top:10px;
+    height: 60px;
+    margin-bottom:10px;
+}
+#form3 hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#form3 ul{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#form3 li{
+    margin-top: 10px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+#form3 input[type=submit]{
+    width: 25%;
+    margin-left: 207px;
+    font-family: architects_daughterregular;
+    border-radius: 8px;
+}
+#form3 legend{
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0 4px;
+    color: red;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#form3 select{
+    height: 30px;
+    font-size: 1em;
+    width:100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+/*    margin-left: 5.5px;*/
+}
+# form3 ul li{
+    margin-left: 30px;
+}
+
+#form3 input[type=radio],input[type=checkbox]{
+    width: auto;
+    height: auto;
+    margin-right:5px;
+    vertical-align:middle;
+}
+/*
+#cont3 input[type=submit]{
+    margin-top: 35px;
+    color: white;
+    background: red;
+    font-family: arial;
+    font-size: 1.5em;
+    border-radius: 8px;
+}
+*/
+
+/************* Form style for qoute ***************/
+#form2{
+    width:580px;
+/*    width: 59.57%;*/
+    float: left;
+    margin-bottom:10px ; 
+}
+#form2 label{
+    margin-left:1px;
+    
+}
+#form2 input{
+    width: 100%;
+    height: 30px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+#form2 fieldset{
+    padding:10px;
+    border-radius: 15px;
+    border:3px solid navy;
+}
+#form2 textarea{
+    width: 100%;
+     margin-top:10px;
+    height: 60px;
+    margin-bottom:10px;
+}
+#form2 ul{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#form2 li{
+    margin-top: 10px;
+    list-style-type: none;
+}
+#form2 input[type=submit]{
+    width: 25%;
+    margin-left: 207px;
+    font-family: architects_daughterregular;
+}
+/*
+#form2 option{
+    width: 100%;
+}
+*/
+#form2 legend{
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0 4px;
+    color: red;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#form2 select{
+    height: 30px;
+    font-size: 1em;
+    width:35%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5.5px;
+}
+
+#form2 input[type=radio],input[type=checkbox]{
+    width: auto;
+    height: auto;
+    margin-right:5px;
+    vertical-align:middle;
+}
+#cont2 input[type=submit]{
+    margin-top: 35px;
+    color: white;
+    background: red;
+    font-family: arial;
+    font-size: 1.5em;
+    border-radius: 8px;
+}
+
+/***************************************/
+/*
+@media screen and (max-width:800px){
+    #wrapper{
+    width:95%;
+    max-width: 1100px;
+}
+    main{
+    width:56.57%;
+}
+    .contact aside{
+    max-width:39.17%; 
+}
+    .about aside{
+    width:39.17%;
+}
+}
+*/
+/*
+@media screen and (max-width:700px){
+     #wrapper{
+    width:95%;
+    max-width: 1100px;
+}
+    main{
+    width:auto;
+        float: none;
+}
+    .contact aside{
+    max-width:39.17%; 
+        float: none;
+}
+    .about aside{
+    width:auto;
+        float: none;
+}   
+    aside img{
+        display: block;
+        margin: 20px auto;
+    }
+    
+    
+}
+*/
+/******************** Wireframe ************/
+.wireframe img {
+ margin: 20px auto;
+}
+.wireframe ol li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('../fonts/architectsdaughter-webfont.woff2') format('woff2'),
+         url('../fonts/architectsdaughter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
